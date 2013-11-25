@@ -1,25 +1,26 @@
 {
-  "name": "passport-youtube",
-  "version": "0.0.6",
-  "description": "Youtube OAuth2 authentication strategy for Passport.  Based on the passport-facebook module",
+  "name": "passport-youtube-v3",
+  "version": "0.0.1",
+  "description": "Youtube v3 API OAuth2 authentication strategy for Passport.  Based on the passport-youtube module",
   "keywords": [
     "passport",
     "oauth2",
     "auth",
     "authentication",
-    "youtube"
+    "youtube",
+    "youtubev3"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jozzhart/passport-youtube.git"
+    "url": "git://github.com/yanatan16/passport-youtube-v3.git"
   },
   "bugs": {
-    "url": "http://github.com/jozzhart/passport-youtube/issues"
+    "url": "http://github.com/yanatan16/passport-youtube-v3/issues"
   },
   "author": {
-    "name": "Jozz Hart",
-    "email": "me@jozzhart.com",
-    "url": "http://www.jozzhart.com/"
+    "name": "Jon Eisen",
+    "email": "jon@joneisen.me",
+    "url": "http://joneisen.me/"
   },
   "licenses": [
     {
@@ -27,7 +28,7 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "./lib/passport-youtube",
+  "main": "./lib/passport-youtube-v3",
   "dependencies": {
     "passport-oauth": "0.1.14"
   },
@@ -36,7 +37,5 @@
   "engines": {
     "node": ">= 0.8.5"
   },
-  "readme": "passport-youtube\n================\n\nYoutube strategy for passport",
-  "_id": "passport-youtube@0.0.5",
-  "_from": "passport-youtube@0.0.5"
+  "readme": "passport-youtube-v3\n================\n\nYoutube API v3 strategy for passport"
 }
