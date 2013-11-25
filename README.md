@@ -27,7 +27,7 @@ passport.use(new YoutubeV3Strategy({
     clientID: YOUTUBE_APP_ID,
     clientSecret: YOUTUBE_APP_SECRET,
     callbackURL: "http://localhost:3000/auth/youtube/callback",
-    scope: 'https://www.googleapis.com/auth/youtube.readonly' // Default separator is ,
+    scope: ['https://www.googleapis.com/auth/youtube.readonly']
   },
   function(accessToken, refreshToken, profile, done) {
     User.findOrCreate({ userId: profile.id }, function (err, user) {
