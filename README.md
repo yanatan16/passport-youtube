@@ -14,7 +14,7 @@ Youtube API v3 strategy for passport
 The Youtube authentication strategy authenticates users using a youtube
 account and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
-`options` specifying a app ID, app secret, and callback URL.
+`options` specifying a app ID, app secret, callback URL and optionally access type, approval prompt, login hint, display and realm.
 
 See [this doc](https://developers.google.com/youtube/v3/guides/authentication) for information about youtube scopes.
 
@@ -27,6 +27,7 @@ passport.use(new YoutubeV3Strategy({
     clientID: YOUTUBE_APP_ID,
     clientSecret: YOUTUBE_APP_SECRET,
     callbackURL: "http://localhost:3000/auth/youtube/callback",
+	accessType: 'online',
     scope: ['https://www.googleapis.com/auth/youtube.readonly']
   },
   function(accessToken, refreshToken, profile, done) {

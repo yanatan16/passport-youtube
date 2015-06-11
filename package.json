@@ -1,5 +1,5 @@
 {
-  "name": "passport-youtube-v3-AK",
+  "name": "passport-youtube-v3",
   "version": "0.1.1",
   "description": "Youtube v3 API OAuth2 authentication strategy for Passport.  Based on the passport-youtube module",
   "keywords": [
