@@ -19,23 +19,17 @@
   },
   "author": {
     "name": "Jon Eisen",
-    "email": "jon@joneisen.me",
-    "url": "http://joneisen.me/"
+    "email": "jon@joneisen.works",
+    "url": "http://joneisen.works/"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "./lib/passport-youtube-v3",
   "dependencies": {
-    "passport-oauth": "0.1.14"
+    "passport-oauth2": "1.1.2"
   },
-  "devDependencies": {},
-  "scripts": {},
-  "engines": {
-    "node": ">= 0.8.5"
-  },
-  "readme": "passport-youtube-v3\n================\n\nYoutube API v3 strategy for passport"
+  "readme": "passport-youtube-v3\n================\n\nYoutube API v3 strategy for passport",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "passport": "^0.3.2"
+  }
 }
