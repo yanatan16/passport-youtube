@@ -25,7 +25,7 @@
   "license": "MIT",
   "main": "./lib/passport-youtube-v3",
   "dependencies": {
-    "passport-oauth2": "1.1.2"
+    "passport-oauth2": "1.4.0"
   },
   "readme": "passport-youtube-v3\n================\n\nYoutube API v3 strategy for passport",
   "devDependencies": {
